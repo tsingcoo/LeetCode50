@@ -14,11 +14,11 @@ double Solution2::myPow(double x, int n) {
         p = n;
     }
 
-    while (n) {
-        if (n & 1) {
+    while (p) {
+        if (p & 1) {
             res *= x;
         }
-        n >>= 1;
+        p >>= 1;
         x *= x;
     }
     return res;

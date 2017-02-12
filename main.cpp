@@ -5,9 +5,9 @@
 int main() {
 
     Solution s;
-    std::cout<<s.myPow(1, -2147483648)<<std::endl;
+    std::cout<<s.myPow(8.88023, 3)<<std::endl;
 
     Solution2 s2;
-    std::cout<<s2.myPow(5, -214748364800)<<std::endl;
+    std::cout<<s2.myPow(8.88023, 3)<<std::endl;
     return 0;
 }
